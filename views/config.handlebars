@@ -1,0 +1,21 @@
+<div class="contConfig">
+    <table>
+        <thead>
+            <tr>
+                <th colspan='2' class="tituloInfo">Configuración del Sistema</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {{#each config}}
+               
+                    <tr>
+                        <td>{{@key}}</td>
+                        <td>{{this}}</td>
+                    </tr>
+                
+            {{/each}}
+        </tbody>
+
+    </table>
+</div>

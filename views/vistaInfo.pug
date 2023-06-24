@@ -1,0 +1,16 @@
+extends layout.pug 
+
+block vistaInfo
+    div(class="contInfo")
+        table 
+            thead 
+                tr  
+                    th(colspan='2' class="tituloInfo") Información Del Sistema 
+            tbody 
+            each dat in Object.keys(data)    
+                tr 
+                    td= dat
+                    td= data[dat]
+
+
+    
