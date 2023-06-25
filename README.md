@@ -2,8 +2,11 @@
 
 El proyecto consta de un backend realizado con NodeJS y Express y un frontend desarrollado con ReactJS. Los archivos estáticos de react son servidos por el backend desde la carpeta “build”. 
 Desde el archivo de entorno .env (en la ruta raíz del proyecto) puede configurarse la base de datos a utilizar, las opciones son:  
+
 a)	MongoDB (Mongo Atlas) Es la opción por defecto y ya tiene todos los productos y el usuario administrador cargados.  
+
 b)	Postgre (render.com) También tiene todos los productos y el usuario administrador cargados.  
+
 c)	Base de datos local MondoDB o Postgre. En este cado se deberá crear un usuario administrador. Primero creando un nuevo usuario desde la opción SignUp en el frontend y luego accediendo a la    base de datos local y a la colección “users” modificando el campo “isadmin” y asignandole “true” al usuario al cual se desea darle los derechos de administrador. 
 Luego de loguearse con el usuario administrador, desde el panel de administración pueden cargarse todos los productos con la opción “Restaurar Base de Datos de Productos”.  
 
