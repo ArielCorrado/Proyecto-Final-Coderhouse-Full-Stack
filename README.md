@@ -1,4 +1,4 @@
-**e-HARD e-commerce: Proyecto final de la carrera de CoderHouse “Desarrollo Full-Stack”**
+**e-HARD e-commerce: Proyecto final de la carrera de CoderHouse “Desarrollo Full-Stack”  •  Tecnologias Utilizadas: Node.js - React.js - MongoDB - Express.js - PostgreSQL - Firebase - WebSockets - knex - Nodemailer - Twilio - Log4js - Pug - EJS - Handlebars - Passport - Bcryptjs - Entre otras.**
 
 El proyecto consta de un backend realizado con NodeJS y Express y un frontend desarrollado con ReactJS. Los archivos estáticos de react son servidos por el backend desde la carpeta “build”. 
 Desde el archivo de entorno .env (en la ruta raíz del proyecto) puede configurarse la base de datos a utilizar, las opciones son:  
